@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "/Users/willrobinson/Desktop/testingFolder"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Week1"
+	}
+}

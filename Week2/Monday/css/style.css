@@ -1,0 +1,27 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* resets the page and makes it nice and alligned */
+
+
+h1 {
+    color: violet;
+    font-size: 50px;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+
+}
+.box{
+    border: black;
+    border-style: solid;
+    padding: 25px;
+    width: 10%;
+
+}
+
