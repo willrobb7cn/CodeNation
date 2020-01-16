@@ -39,6 +39,7 @@ header h1 {
     font-weight: lighter;
     border-radius: 5vh;
     padding-top: 10vh;
+    text-shadow:black ;
 }
 
 header h2 {
@@ -54,18 +55,17 @@ header h2 {
 }
 
 
-.preamble h3 {
-    color: orange;
-}
+
 
 h3 {
-    color: red;
+    color:black;
     padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-.page-wrapper {
+/* #zen-preamble, #zen-summary, #zen-supporting,#zen-explanation,#zen-participation,#zen-benefits,#zen-requirements {
     background-image: url(../img/bamboo.png);
-}
+} */
 
 body {
     font-family: sans-serif;
@@ -73,6 +73,55 @@ body {
     font-family: 'IBM Plex Mono';
 }
 
-#summary {
-    padding-top: 10vh;
+#zen-summary {
+    padding-top: 2vh;
 }
+
+a{
+    text-decoration: none;
+    color: grey;
+}
+
+p{
+    padding-top: 1vh;
+}
+
+.participation, .benefits{
+    background-color: rgba(4, 110, 4, 0.253);
+    background-blend-mode: color;
+    /* text-align: center; */
+    background-image: url(../img/bamboo.png);
+    color: white;
+}
+.participation{
+    padding-bottom: 0;
+    border-bottom: 0;
+}
+
+footer  {
+    background-color: rgba(12, 80, 12, 0.979);
+    text-align: center;
+    height: 5vh;
+    color: white;
+}
+footer a {
+    color: white;
+    padding: 0;
+    font-size: 4vh;
+
+}
+
+p[role=contentinfo] {
+    height: 12vh;
+    background-color: rgba(4, 110, 4, 0.253);
+    text-align: center;
+}
+p[role=contentinfo] a {
+    color: white;
+    font-family: 'Satisfy';
+    font-size: 25px;
+    text-align: center;
+    
+}
+
+/* .design */
