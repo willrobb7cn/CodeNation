@@ -1,0 +1,54 @@
+
+.codenation {
+    animation: rotation 3s infinite linear;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 17%;
+}
+.facebook {
+    animation: rotation 2s infinite linear;
+    
+}
+.twitter {
+    animation: rotation 1s infinite linear;
+    
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 50%; */
+   }
+   
+
+   .left{
+    display: flex;
+    margin-left: 33%;
+    margin-right: auto;
+    width: 25%;
+    height: 15%
+   }
+
+
+   .right{
+    display: flex;
+    margin-left: 33%;
+    margin-right: auto;
+    width: 25%;
+   }
+
+
+img{
+    align-content: space-between;
+}
+
+@keyframes rotation {
+    
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(359deg);
+        }
+    
+}
